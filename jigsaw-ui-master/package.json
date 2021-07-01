@@ -1,0 +1,20 @@
+{
+  "name": "jigsaw-ui",
+  "version": "0.1.0",
+  "description": "A futuristic CSS framework with pluggable components",
+  "author": "Abderrahman Brini <contact@brinidesigner.com>",
+  "license": "MIT",
+  "main": "index.html",
+  "devDependencies": {
+    "cssnano": "^3.7.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "stylelint-config-standard": "^8.0.0"
+  },
+  "dependencies": {
+    "postcss": "^5.0.21",
+    "postcss-cssnext": "^2.6.0",
+    "postcss-import": "^8.1.2"
+  }
+}

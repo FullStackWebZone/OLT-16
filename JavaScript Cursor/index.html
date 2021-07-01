@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1>Move Cursor</h1>
+		
+<div id="my-cursor">
+	<img src="1.png">
+</div>
+ 
+
+<script>
+	document.body.addEventListener("mousemove",function(e){
+		 document.getElementById("my-cursor").style.left=e.clientX-100+"px";
+		  document.getElementById("my-cursor").style.top=e.clientY-100+"px";
+	})
+</script>
+
+</body>
+</html>

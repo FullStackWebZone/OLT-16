@@ -1,0 +1,26 @@
+ *{
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+ }
+
+ body{
+	 background: #96c93d;  /* fallback for old browsers */
+ height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	 font-family: 'Roboto';
+ }
+ 
+ h1{
+	 font-size: 100px;
+    color: #fff;
+ }
+ 
+ #my-cursor{
+	
+
+	 position:absolute;
+	 
+ }

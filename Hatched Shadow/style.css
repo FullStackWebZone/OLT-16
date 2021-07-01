@@ -1,0 +1,34 @@
+body{
+    background-color: #fd005b;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+h3{
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    font-size: 150px;
+    letter-spacing: 0.12em;
+    color: #343434;
+    -webkit-text-stroke: 2.5px #fd005b;
+}
+h3:before{
+    position: absolute;
+    content: attr(data-text);
+    top: 0.06em;
+    left: 0.12em;
+    background-image: repeating-linear-gradient(
+        45deg,
+        transparent 0,
+        transparent 0.03em,
+        #f6f7f6 0.03em,
+        #f6f7f6 0.06em
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    z-index: -1;
+    -webkit-text-stroke-width: 0;
+}

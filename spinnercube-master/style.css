@@ -1,0 +1,192 @@
+body{
+    background-color: black;
+}
+/* *******************spinner-cube starts**************************** */
+.cube {
+    height: 75px;
+    width: 75px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 50%;
+    margin-top: 50vh;
+    animation-name: rotation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.square {
+    height: 25px;
+    width: 25px;
+}
+
+/* sq1 sq2 sq3 sq6 sq9 sq8 sq7 sq4 */
+
+.sq1 {
+    background-color: aqua;
+    animation-name: ccsq1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-top-left-radius: 15px;
+}
+
+@keyframes ccsq1 {
+    from {
+        background-color: aqua;
+    }
+    to {
+        background-color: hsla(123, 53%, 56%, 0.952)
+    }
+}
+
+/* sq1 sq2 sq3 sq6 sq9 sq8 sq7 sq4 */
+
+.sq2 {
+    background-color: hsl(16, 100%, 66%);
+    animation-name: ccsq2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes ccsq2 {
+    from {
+        background-color: hsl(16, 100%, 66%);
+    }
+    to {
+        background-color: aqua;
+    }
+}
+
+/* sq1 sq2 sq3 sq6 sq9 sq8 sq7 sq4 */
+
+.sq3 {
+    background-color: hsla(39, 53%, 56%, 0.952);
+    animation-name: ccsq3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-top-right-radius: 15px;
+}
+
+@keyframes ccsq3 {
+    from {
+        background-color: hsla(39, 53%, 56%, 0.952);
+    }
+    to {
+        background-color: hsl(16, 100%, 66%);
+    }
+}
+
+/* sq1 sq2 sq3 sq6 sq9 sq8 sq7 sq4 */
+
+.sq4 {
+    background-color: hsla(123, 53%, 56%, 0.952);
+    animation-name: ccsq4;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes ccsq4 {
+    from {
+        background-color: hsla(123, 53%, 56%, 0.952);
+    }
+    to {
+        background-color: hsla(310, 56%, 49%, 0.952)
+    }
+}
+
+/* sq1 sq2 sq3 sq6 sq9 sq8 sq7 sq4 */
+
+.sq5 {
+    background-color: hsla(202, 47%, 73%, 0.952)
+}
+
+/* sq1 sq2 sq3 sq6 sq9 sq8 sq7 sq4 */
+
+.sq6 {
+    background-color: hsla(263, 53%, 56%, 0.952);
+    animation-name: ccsq6;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes ccsq6 {
+    from {
+        background-color: hsla(263, 53%, 56%, 0.952);
+    }
+    to {
+        background-color: hsla(39, 53%, 56%, 0.952);
+    }
+}
+
+/* sq1 sq2 sq3 sq6 sq9 sq8 sq7 sq4 */
+
+.sq7 {
+    background-color: hsla(310, 56%, 49%, 0.952);
+    animation-name: ccsq7;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-bottom-left-radius: 15px;
+}
+
+@keyframes ccsq7 {
+    from {
+        background-color: hsla(310, 56%, 49%, 0.952);
+    }
+    to {
+        background-color: hsla(355, 67%, 40%, 0.952)
+    }
+}
+
+/* sq1 sq2 sq3 sq6 sq9 sq8 sq7 sq4 */
+.sq8 {
+    background-color: hsla(355, 67%, 40%, 0.952);
+    animation-name: ccsq8;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes ccsq8 {
+    from {
+        background-color: hsla(355, 67%, 40%, 0.952);
+    }
+    to {
+        background-color: hsla(202, 69%, 40%, 0.952)
+    }
+}
+
+/* sq1 sq2 sq3 sq6 sq9 sq8 sq7 sq4 */
+.sq9 {
+    background-color: hsla(202, 69%, 40%, 0.952);
+    animation-name: ccsq9;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-bottom-right-radius: 15px;
+}
+
+@keyframes ccsq9 {
+    from {
+        background-color: hsla(202, 69%, 40%, 0.952);
+    }
+    to {
+        background-color: hsla(263, 53%, 56%, 0.952);
+    }
+}
+
+/* *******************spinner-cube starts**************************** */
